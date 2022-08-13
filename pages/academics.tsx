@@ -7,7 +7,7 @@ import Top from '../components/top';
 import Wrapper from '../components/wrapper';
 import StyledLink from '../components/styled-link';
 
-const About: NextPage = () => {
+const Academics: NextPage = () => {
   return (
     <>
       <Head>
@@ -40,4 +40,4 @@ const About: NextPage = () => {
   )
 }
 
-export default About;
+export default Academics;

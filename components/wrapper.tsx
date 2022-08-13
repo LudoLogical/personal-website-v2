@@ -6,7 +6,9 @@ const Wrapper: FC<{
   return (
     <div className={'absolute table top-0 w-full h-full'}>
       <div className={'table-cell align-middle'}>
-        {children}
+        <div className={'my-14'}>
+          {children}
+        </div>
       </div>
     </div>
   )

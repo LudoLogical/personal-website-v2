@@ -63,8 +63,8 @@ const Programming: NextPage = () => {
         </p>
         <h2 className={h2Styles}>Awards (<StyledLink href={'https://www.codeday.org/'} text={'CodeDay'} />)</h2>
         <p className={'mt-6 mx-24 text-base-content/50 text-center'}>
-          Best Game - <StyledLink href={'https://danieldeanda.tech/with-these-eyes/'} text={'With These Eyes'} /> (Fall 2016)<br/>
-          Best Game - <StyledLink href={'https://danieldeanda.tech/superhyperbuff/'} text={'SuperHyperBuff'} /> (Winter 2017)<br/>
+          Best Game - <StyledLink href={'https://projects.danieldeanda.tech/with-these-eyes/'} text={'With These Eyes'} /> (Fall 2016)<br/>
+          Best Game - <StyledLink href={'https://projects.danieldeanda.tech/superhyperbuff/'} text={'SuperHyperBuff'} /> (Winter 2017)<br/>
           Special Award for Completeness in Design - <StyledLink href={'https://jcwang111.github.io/quotemaker/'} text={'QuoteMaker'} /> (Fall 2017)<br/>
           Special Award for Creativity in Design - <StyledLink href={'https://github.com/DGWerlod/in-construction'} text={'In Construction'} /> (Winter 2018)<br/>
           Personal Commendation from Judges - <StyledLink href={'https://github.com/DGWerlod/roguelike-game'} text={'Chef Spud'} /> (Spring 2018)<br/>

@@ -26,7 +26,7 @@ const Index: NextPage = () => {
       </Head>
       <Wrapper>
         <div className={'flex flex-col justify-center'}>
-          <Top mainText={'Daniel DeAnda'} />
+          <Top mainText={'Daniel (Ludo) DeAnda'} />
         </div>
         <table className={'mx-auto mt-8'}>
           <tbody>

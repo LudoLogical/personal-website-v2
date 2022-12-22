@@ -21,7 +21,7 @@ const About: NextPage = () => {
           <Top mainText={'About'} />
         </div>
         <p className={'mt-6 mx-24 text-base-content/50 text-center'}>
-          Daniel DeAnda is a 22-year-old American software engineer, musician, and ludologist. <br/>
+          Daniel &quot;Ludo&quot; DeAnda is a 22-year-old American software engineer, musician, and ludologist. <br/>
           He was born and raised in North Carolina before moving to California at the start of <br/>
           his  high school career, where he resides when college is not in session.
         </p>

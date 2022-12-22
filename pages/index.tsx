@@ -49,7 +49,7 @@ const Index: NextPage = () => {
           })}
           </tbody>
         </table>
-        <p className={'text-center text-base-content/50 mt-5'}>	&#169; 2017-2022</p>
+        <p className={'text-center text-base-content/50 mt-5'}>	&#169; 2017-2023</p>
       </Wrapper>
     </>
   )

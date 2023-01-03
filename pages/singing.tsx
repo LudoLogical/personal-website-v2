@@ -6,6 +6,7 @@ import Head from 'next/head'
 import Top from '../components/top';
 import Wrapper from '../components/wrapper';
 import StyledLink from '../components/styled-link';
+import {pStyles} from "../utils/constants";
 
 const Singing: NextPage = () => {
   return (
@@ -17,7 +18,7 @@ const Singing: NextPage = () => {
         <div className={'flex flex-col justify-center'}>
           <Top mainText={'Singing'} />
         </div>
-        <p className={'mt-6 mx-24 text-base-content/50'}>
+        <p className={pStyles}>
           In his middle and high school years, Daniel received two consecutive nominations for Most Valuable
           Performer, as well as three consecutive years of &#39;Superior&#39; marks from either the&nbsp;
           <StyledLink href={'https://www.ncmea.net/'} text={'NCMEA'} /> or&nbsp;

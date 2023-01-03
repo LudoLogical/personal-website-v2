@@ -1,3 +1,7 @@
+export const pStyles = 'mt-6 mx-24 text-base-content/50';
+export const h2Styles = 'm-5 text-2xl font-bold text-center text-base-content';
+export const h2StylesFaded = 'm-5 text-2xl font-bold text-center text-base-content/50';
+
 export const compositionsInfo = {
   originals: {
     labels: [

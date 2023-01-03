@@ -5,8 +5,7 @@ import Head from 'next/head'
 
 import Top from '../components/top';
 import Wrapper from '../components/wrapper';
-
-const h2Styles = 'm-5 text-2xl font-bold text-center text-base-content/50';
+import {h2StylesFaded} from "../utils/constants";
 
 const Ludology: NextPage = () => {
   return (
@@ -18,7 +17,7 @@ const Ludology: NextPage = () => {
         <div className={'flex flex-col justify-center'}>
           <Top mainText={'Ludology'} />
         </div>
-        <h2 className={h2Styles}>This section of the site is coming soon!</h2>
+        <h2 className={h2StylesFaded}>This section of the site is coming soon!</h2>
       </Wrapper>
     </>
   )

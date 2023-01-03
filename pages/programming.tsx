@@ -7,8 +7,7 @@ import Top from '../components/top';
 import Wrapper from '../components/wrapper';
 import StyledLink from '../components/styled-link';
 import Link from "next/link";
-
-const h2Styles = 'm-5 text-2xl font-bold text-center text-base-content/50';
+import {h2StylesFaded, pStyles} from "../utils/constants";
 
 const Programming: NextPage = () => {
   return (
@@ -20,12 +19,12 @@ const Programming: NextPage = () => {
         <div className={'flex flex-col justify-center'}>
           <Top mainText={'Programming'} />
         </div>
-        <p className={'mt-6 mx-24 text-base-content/50'}>
+        <p className={pStyles}>
           Daniel has over six years of experience in the field of Computer Science. In that time, he has
           completed many programming projects, acquired valuable expertise, and earned various accolades.
           You can learn more about his capabilities and accomplishments below.
         </p>
-        <h2 className={h2Styles}>Portfolio</h2>
+        <h2 className={h2StylesFaded}>Portfolio</h2>
         <div className={'btn-group justify-center'}>
           <Link href={'https://github.com/LudoLogical'}>
             <button className={'btn btn-md text-2xl'}>GitHub Profile</button>
@@ -34,8 +33,8 @@ const Programming: NextPage = () => {
             <button className={'btn btn-md text-2xl'}>Contributions</button>
           </Link>
         </div>
-        <h2 className={h2Styles}>Knowledge</h2>
-        <p className={'mt-6 mx-24 text-base-content/50 text-center'}>
+        <h2 className={h2StylesFaded}>Knowledge</h2>
+        <p className={pStyles + ' text-center'}>
           HTML 5, CSS 3, JavaScript, jQuery, and TypeScript (fluent)<br/>
           React, Next.js, and Jest (proficient)<br/>
           Grommet (fluent) and styled-components (proficient)<br/>
@@ -61,8 +60,8 @@ const Programming: NextPage = () => {
           Windows Command Prompt and Powershell (proficient)<br/>
           UNIX/Linux Terminal and Bash (proficient)
         </p>
-        <h2 className={h2Styles}>Awards (<StyledLink href={'https://www.codeday.org/'} text={'CodeDay'} />)</h2>
-        <p className={'mt-6 mx-24 text-base-content/50 text-center'}>
+        <h2 className={h2StylesFaded}>Awards (<StyledLink href={'https://www.codeday.org/'} text={'CodeDay'} />)</h2>
+        <p className={pStyles + ' text-center'}>
           Best Game - <StyledLink href={'https://projects.danieldeanda.tech/with-these-eyes/'} text={'With These Eyes'} /> (Fall 2016)<br/>
           Best Game - <StyledLink href={'https://projects.danieldeanda.tech/superhyperbuff/'} text={'SuperHyperBuff'} /> (Winter 2017)<br/>
           Special Award for Completeness in Design - <StyledLink href={'https://jcwang111.github.io/quotemaker/'} text={'QuoteMaker'} /> (Fall 2017)<br/>
@@ -71,8 +70,8 @@ const Programming: NextPage = () => {
           Best In Show - <StyledLink href={'https://github.com/DGWerlod/pinball-game'} text={'Pin Ball'} /> (Fall 2018)<br/>
           Best In Show - Huevo Juego (Available Upon Request) (Spring 2019)
         </p>
-        <h2 className={h2Styles}>Misc. Projects</h2>
-        <p className={'mt-6 mx-24 text-base-content/50 text-center'}>
+        <h2 className={h2StylesFaded}>Misc. Projects</h2>
+        <p className={pStyles + ' text-center'}>
           <StyledLink href={'/fermata'} text={'Fermata.js'} />
         </p>
       </Wrapper>

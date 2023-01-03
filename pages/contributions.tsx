@@ -6,6 +6,7 @@ import Head from 'next/head'
 import Top from '../components/top';
 import Wrapper from '../components/wrapper';
 import StyledLink from '../components/styled-link';
+import {pStyles} from "../utils/constants";
 
 const Contributions: NextPage = () => {
   return (
@@ -17,7 +18,7 @@ const Contributions: NextPage = () => {
         <div className={'flex flex-col justify-center'}>
           <Top mainText={'Contributions'} />
         </div>
-        <p className={'mt-6 mx-24 text-base-content/50 text-center'}>
+        <p className={pStyles}>
           Daniel has contributed to various GitHub repositories that he did not create, including: <br/><br/>
           <StyledLink href={'https://github.com/jcwang111/quotemaker'} text={'QuoteMaker'} /> (repository created by <StyledLink href={'https://github.com/jcwang111'} text={'jcwang111'} />)<br/><br/>
           <StyledLink href={'https://github.com/anke-hao/PeopleSV'} text={'PeopleSV'} /> (repository created by <StyledLink href={'https://github.com/anke-hao'} text={'anke-hao'} />)<br/><br/>

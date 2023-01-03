@@ -7,12 +7,10 @@ import ReactAudioPlayer from 'react-audio-player';
 import Top from '../../components/top';
 import Wrapper from '../../components/wrapper';
 
-import { compositionsInfo } from '../../utils/constants';
+import {compositionsInfo, h2StylesFaded} from '../../utils/constants';
 import {useRouter} from 'next/router';
 import {useState} from 'react';
 import Link from "next/link";
-
-const h2Styles = 'm-5 text-2xl font-bold text-center text-base-content/50';
 
 const tabs = ['Player', 'PDF', 'MuseScore'];
 
@@ -64,7 +62,7 @@ const ParticularComposition: NextPage = () => {
         <div className={'flex flex-col justify-center'}>
           <Top mainText={name} />
         </div>
-        <h2 className={h2Styles}>{description}</h2>
+        <h2 className={h2StylesFaded}>{description}</h2>
         <div className={'tabs tabs-boxed w-fit mx-auto mb-7'}>
           {tabs.map((t, i) => {
             return <a

@@ -6,8 +6,7 @@ import Link from 'next/link';
 
 import Top from '../components/top';
 import Wrapper from '../components/wrapper';
-
-const h2Styles = 'm-5 text-2xl font-bold text-center text-base-content/50';
+import {h2StylesFaded, pStyles} from "../utils/constants";
 
 const Fermata: NextPage = () => {
   return (
@@ -19,7 +18,7 @@ const Fermata: NextPage = () => {
         <div className={'flex flex-col justify-center'}>
           <Top mainText={'Fermata.js'} />
         </div>
-        <h2 className={h2Styles}>
+        <h2 className={h2StylesFaded}>
           Easy to learn. Unpacks in seconds. Adapts to any situation.<br/>
           A free, classy audio player for no-framework websites wherever you want it.
         </h2>
@@ -31,7 +30,7 @@ const Fermata: NextPage = () => {
         <Link href={'/api/file?loc=fermata.js'}>
           <button className={'btn btn-primary block mx-auto my-6'}>Download Fermata.js</button>
         </Link>
-        <p className={'mt-6 mx-24 text-base-content/50 text-center'}>
+        <p className={pStyles + ' text-center'}>
           Licensed under Creative Commons BY
         </p>
       </Wrapper>

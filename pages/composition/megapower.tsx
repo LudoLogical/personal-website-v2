@@ -7,12 +7,10 @@ import ReactAudioPlayer from 'react-audio-player';
 import Top from '../../components/top';
 import Wrapper from '../../components/wrapper';
 
-import { megapowerInfo } from '../../utils/constants';
+import {h2StylesFaded, megapowerInfo} from '../../utils/constants';
 import {useState} from 'react';
 import Link from 'next/link';
 import StyledLink from "../../components/styled-link";
-
-const h2Styles = 'm-5 text-2xl font-bold text-center text-base-content/50';
 
 const MegaPower: NextPage = () => {
 
@@ -27,7 +25,7 @@ const MegaPower: NextPage = () => {
         <div className={'flex flex-col justify-center'}>
           <Top mainText={'MegaPower!'} />
         </div>
-        <h2 className={h2Styles}>
+        <h2 className={h2StylesFaded}>
           A collection of chip-tune melodies powered by&nbsp;
           <StyledLink href={'https://www.beepbox.co/'} text={'beepbox.co'} />.
         </h2>

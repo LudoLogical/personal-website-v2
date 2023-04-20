@@ -15,8 +15,8 @@ import Link from "next/link";
 const images = [photo, character, logo];
 const imageAlts = ['Photo', 'Character', 'Logo'];
 const adjectives = ['Honors', 'Talented', 'Experienced', 'Creative', 'Seasoned', 'And Other'];
-const nouns = ['Student', 'Programmer', 'Vocalist', 'Composer', 'Ludologist', 'Lovely Things'];
-const nounLinks = ['/academics', '/programming', '/singing', '/composition', '/ludology', '/be-kind'];
+const nouns = ['Student', 'Developer', 'Vocalist', 'Composer', 'Ludologist', 'Lovely Things'];
+const nounLinks = ['/academics', '/software', '/singing', '/composition', '/ludology', '/be-kind'];
 
 const Index: NextPage = () => {
   return (
@@ -26,7 +26,7 @@ const Index: NextPage = () => {
       </Head>
       <Wrapper>
         <div className={'flex flex-col justify-center'}>
-          <Top mainText={'Daniel (Ludo) DeAnda'} />
+          <Top mainText={'Daniel "Ludo" DeAnda'} />
         </div>
         <table className={'mx-auto mt-8'}>
           <tbody>

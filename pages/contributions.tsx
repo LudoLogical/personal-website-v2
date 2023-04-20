@@ -20,10 +20,11 @@ const Contributions: NextPage = () => {
         </div>
         <p className={pStyles}>
           Daniel has contributed to various GitHub repositories that he did not create, including: <br/><br/>
-          <StyledLink href={'https://github.com/jcwang111/quotemaker'} text={'QuoteMaker'} /> (repository created by <StyledLink href={'https://github.com/jcwang111'} text={'jcwang111'} />)<br/><br/>
-          <StyledLink href={'https://github.com/anke-hao/PeopleSV'} text={'PeopleSV'} /> (repository created by <StyledLink href={'https://github.com/anke-hao'} text={'anke-hao'} />)<br/><br/>
+          <StyledLink href={'https://github.com/UTDNebula/platform'} text={'Nebula Platform'} /> (repository created for the organization <StyledLink href={'https://github.com/UTDNebula'} text={'Nebula Labs'} />)<br/><br/>
           <StyledLink href={'https://github.com/NovisACappella/novisacappella.github.io'} text={'Novis A Cappella'} /> (repository created for the organization <StyledLink href={'https://github.com/NovisACappella'} text={'Novis A Cappella'} />)<br/><br/>
-          Daniel has also worked on a research project for the University of Texas at Dallas under the direction of Dr. Ravi Prakash; more details are available upon request.
+          <StyledLink href={'https://github.com/anke-hao/PeopleSV'} text={'PeopleSV'} /> (repository created by <StyledLink href={'https://github.com/anke-hao'} text={'anke-hao'} />)<br/><br/>
+          <StyledLink href={'https://github.com/jcwang111/quotemaker'} text={'QuoteMaker'} /> (repository created by <StyledLink href={'https://github.com/jcwang111'} text={'jcwang111'} />)<br/><br/>
+          Daniel has also worked on a research project for the <StyledLink href={'https://utdallas.edu/'} text={'University of Texas at Dallas'} /> under the direction of Dr. Ravi Prakash; more details are available upon request.
         </p>
       </Wrapper>
     </>

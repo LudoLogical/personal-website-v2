@@ -8,8 +8,8 @@ import Link from "next/link";
 import Wrapper from '../components/wrapper';
 import {pStyles} from "../utils/constants";
 
-const labels = ['Academics', 'Programming', 'Singing', 'Composition', 'Ludology'];
-const destinations = ['/academics', '/programming', '/singing', '/composition', '/ludology'];
+const labels = ['Academics', 'Software', 'Singing', 'Composition', 'Ludology'];
+const destinations = ['/academics', '/software', '/singing', '/composition', '/ludology'];
 
 const About: NextPage = () => {
   return (

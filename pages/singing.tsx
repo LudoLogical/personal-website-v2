@@ -24,10 +24,11 @@ const Singing: NextPage = () => {
           <StyledLink href={'https://www.ncmea.net/'} text={'NCMEA'} /> or&nbsp;
           <StyledLink href={'https://www.calmusiced.com/'} text={'CMEA'} /> (the highest rating awarded by these
           organizations) alongside two distinct vocal groups. He also received a first-of-its-kind award for
-          vocal leadership from former music director Jan Sterger Johnston. Since graduating from high school,
-          he has become a member and valued officer of&nbsp;
+          vocal leadership from former music director Jan Sterger Johnston. After graduating from high school,
+          he became a member and valued officer of&nbsp;
           <StyledLink href={'https://novisutd.org/'} text={'Novis A Cappella'} />, the premiere
-          a cappella group at the University of Texas at Dallas.
+          a cappella group at the University of Texas at Dallas. Currently, he is working on independent vocal
+          projects.
         </p>
       </Wrapper>
     </>

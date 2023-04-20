@@ -21,7 +21,7 @@ const Composition: NextPage = () => {
           <Top mainText={'Composition'} />
         </div>
         <p className={pStyles + ' text-center'}>
-          Daniel has been composing music featuring a variety of voices and instruments for over six years.<br/>
+          Daniel has been composing music featuring a variety of voices and instruments for over seven years.<br/>
           You can explore and download some of his pieces via the links below, courtesy of&nbsp;
           <StyledLink href={'https://musescore.org/'} text={'MuseScore'} />.
         </p>

@@ -19,22 +19,28 @@ const Academics: NextPage = () => {
           <Top mainText={'Academics'} />
         </div>
         <p className={pStyles}>
-          Daniel is currently in his Senior year of college as a&nbsp;
-          <StyledLink href={'https://honors.utdallas.edu/cv'} text={'Collegium V'} /> and&nbsp;
-          <StyledLink href={'https://cs.utdallas.edu/computingscholars/'} text={'CS^2'} /> Honors Student at the&nbsp;
-          <StyledLink href={'https://utdallas.edu/'} text={'University of Texas at Dallas'} /> (GPA: 4.00).
+          Daniel is currently in his Senior year of college as a multi-honors student at the&nbsp;
+          <StyledLink href={'https://utdallas.edu/'} text={'University of Texas at Dallas'} /> (GPA: 3.99).
           He has maintained a straight A record since his 6th grade year and has received recognition in
           various forms for his academic excellence, including:
         </p>
         <p className={pStyles + ' text-center'}>
-          Membership with Duke University&#39;s&nbsp;
-          <StyledLink href={'https://tip.duke.edu/'} text={'TIP'} /> program in both 4th and 7th grade <br/><br/>
-          An award from Duke University for an exceptional performance on the&nbsp;
-          <StyledLink href={'https://www.act.org/'} text={'ACT'} /> in 7th grade <br/><br/>
+          (As of May 15th, 2023) Graduation with Summa Cum Laude status from&nbsp;
+          <StyledLink href={'https://utdallas.edu/'} text={'University of Texas at Dallas'} /><br/><br/>
+          (As of May 15th, 2023) Graduation with&nbsp;
+          <StyledLink href={'https://honors.utdallas.edu/cv'} text={'Collegium V'} /> honors from&nbsp;
+          <StyledLink href={'https://utdallas.edu/'} text={'University of Texas at Dallas'} /><br/><br/>
+          (As of May 12th, 2023) Graduation with&nbsp;
+          <StyledLink href={'https://cs.utdallas.edu/computingscholars/'} text={'CS^2'} /> honors from&nbsp;
+          <StyledLink href={'https://utdallas.edu/'} text={'University of Texas at Dallas'} /><br/><br/>
+          Graduation as a Valedictorian from&nbsp;
+          <StyledLink href={'https://hhs.fuhsd.org/'} text={'Homestead High School'} /> in Cupertino, CA<br/><br/>
           National Merit Scholar status (as bestowed by&nbsp;
           <StyledLink href={'https://www.collegeboard.org/'} text={'The College Board'} />)<br/><br/>
-          Graduation as a Valedictorian from&nbsp;
-          <StyledLink href={'https://hhs.fuhsd.org/'} text={'Homestead High School'} /> in Cupertino, CA
+          An award from Duke University for an exceptional performance on the&nbsp;
+          <StyledLink href={'https://www.act.org/'} text={'ACT'} /> in 7th grade <br/><br/>
+          Membership with Duke University&#39;s&nbsp;
+          <StyledLink href={'https://tip.duke.edu/'} text={'TIP'} /> program in both 4th and 7th grade
         </p>
       </Wrapper>
     </>
